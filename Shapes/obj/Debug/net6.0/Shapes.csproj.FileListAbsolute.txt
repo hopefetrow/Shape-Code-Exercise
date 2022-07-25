@@ -13,3 +13,11 @@
 /Users/hopefetrow/Desktop/CodeChallenge/Shapes/obj/Debug/net6.0/Shapes.pdb
 /Users/hopefetrow/Desktop/CodeChallenge/Shapes/obj/Debug/net6.0/Shapes.genruntimeconfig.cache
 /Users/hopefetrow/Desktop/CodeChallenge/Shapes/obj/Debug/net6.0/ref/Shapes.dll
+/Users/hopefetrow/Desktop/CodeChallenge/obj/Debug/net6.0/Shapes.csproj.AssemblyReference.cache
+/Users/hopefetrow/Desktop/CodeChallenge/obj/Debug/net6.0/Shapes.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hopefetrow/Desktop/CodeChallenge/obj/Debug/net6.0/Shapes.AssemblyInfoInputs.cache
+/Users/hopefetrow/Desktop/CodeChallenge/obj/Debug/net6.0/Shapes.AssemblyInfo.cs
+/Users/hopefetrow/Desktop/CodeChallenge/obj/Debug/net6.0/Shapes.csproj.CoreCompileInputs.cache
+/Users/hopefetrow/Desktop/CodeChallenge/obj/Debug/net6.0/Shapes.dll
+/Users/hopefetrow/Desktop/CodeChallenge/obj/Debug/net6.0/refint/Shapes.dll
+/Users/hopefetrow/Desktop/CodeChallenge/obj/Debug/net6.0/Shapes.pdb

@@ -3,17 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Shapes
-{
+namespace Shapes {
 
     // Triangle class 
-    class Triangle : IShape
-    {
+    public class Triangle : IShape {
         public double centerX, centerY, sideLength, orientation, _area, _perimeter, _centroidX, _centroidY;
 
         // Constructor 
-        public Triangle(int _id, double centerX, double centerY, double sideLength, double orientation)
-        {
+        public Triangle (int _id, double centerX, double centerY, double sideLength, double orientation) {
             this.Id = _id;
             this.centerX = centerX;
             this.centerY = centerY;
@@ -22,27 +19,24 @@ namespace Shapes
         }
 
         // Getter/setter for ID
-        public int Id
-        {
+        public int Id {
             get; set;
         }
 
         // Getter/setter for area
-        public double Area
-        {
+        public double Area {
             get
             {
                 return this._area;
             }
             set
             {
-                this._area = .5 * this.sideLength * ((Math.Pow(3, .5) * this.sideLength) / 2);
+                this._area = .5 * this.sideLength * ( ( Math.Pow(3, .5) * this.sideLength ) / 2 );
             }
         }
 
         // Getter/setter for perimeter
-        public double Perimeter
-        {
+        public double Perimeter {
             get
             {
                 return this._perimeter;
@@ -54,28 +48,26 @@ namespace Shapes
         }
 
         // Getter/setter for x-value of centroid
-        public double CentroidX
-        {
+        public double CentroidX {
             get
             {
                 return this._centroidX;
             }
             set
             {
-                this._centroidX = (this.centerX * Math.Cos(this.orientation)) - (this.centerY * Math.Sin(this.orientation));
+                this._centroidX = ( this.centerX * Math.Cos(this.orientation) ) - ( this.centerY * Math.Sin(this.orientation) );
             }
         }
 
         // Getter/setter for y-value of centroid 
-        public double CentroidY
-        {
+        public double CentroidY {
             get
             {
                 return this._centroidY;
             }
             set
             {
-                this._centroidY = (this.centerY * Math.Cos(this.orientation)) + (this.centerX * Math.Sin(this.orientation));
+                this._centroidY = ( this.centerY * Math.Cos(this.orientation) ) + ( this.centerX * Math.Sin(this.orientation) );
             }
         }
     }
