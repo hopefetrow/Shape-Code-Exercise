@@ -17,7 +17,7 @@ namespace Shapes
             string line;
             string[] row;
             // open csv file 
-            using var streamReader = File.OpenText("Machine Vision Development Engineer Coding Exercise _ ShapeList2.csv");
+            using var streamReader = File.OpenText("input/Machine Vision Development Engineer Coding Exercise _ ShapeList2.csv");
 
             /*
                1. Determine what shape is being read
@@ -134,7 +134,7 @@ namespace Shapes
 
 
             // export data to csv 
-            ExportData.ExportCsv(shapes, "Geometric Shape Properties.csv");
+            ExportData.ExportCsv(shapes, "output/Output Shape Properties.csv");
         }
     }
 
