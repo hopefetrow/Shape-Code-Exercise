@@ -134,7 +134,7 @@ namespace Shapes
 
 
             // export data to csv 
-            ExportData.ExportCsv(shapes, "output/Output Shape Properties.csv");
+            ExportData.ExportCsv(shapes, "Output Shape Properties.csv");
         }
     }
 
@@ -147,6 +147,7 @@ namespace Shapes
         {
             var sb = new StringBuilder();
             var basePath = AppDomain.CurrentDomain.BaseDirectory;
+            var fullPath = basePath + fileName;
             var info = typeof(IShape).GetProperties();
 
             if (!File.Exists(fileName))
@@ -167,7 +168,7 @@ namespace Shapes
                 Console.WriteLine(line);
                 line = line.Substring(0, line.Length - 2);
                 sb.AppendLine(line);
-                TextWriter sw = new StreamWriter(fileName, true);
+                TextWriter sw = new StreamWriter(fullPath, true);
                 sw.Write(sb.ToString());
                 sw.Close();
 
