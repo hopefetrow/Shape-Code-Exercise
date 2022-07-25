@@ -7,10 +7,6 @@
         "NewLinesForBracesInTypes": false,
         "NewLinesForBracesInProperties": false,
         "NewLineForElse": false,
-        "SpaceAfterCast": true,
-        "SpaceBeforeOpenSquareBracket": true,
-        "SpaceWithinExpressionParentheses": true,
-        "SpacingAfterMethodDeclarationName": false,
-        "SpaceAfterSemicolonsInForStatement": true
+        "NewLinesForBracesInAccessors": false
     }
 }
