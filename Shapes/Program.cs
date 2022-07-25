@@ -131,16 +131,12 @@ namespace Shapes
                         break;
                 }
             }
-
-
             // export data to csv 
             ExportData.ExportCsv(shapes, "Output Shape Properties.csv");
         }
     }
 
-    /// <summary>
     /// Exports a list of IShape objects with their properties to a .csv file
-    /// </summary>
     public static class ExportData
     {
         public static void ExportCsv<IShape>(List<IShape> shapes, string fileName)
