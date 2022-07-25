@@ -2,7 +2,7 @@
 
 
 ## Setup
-### Run this project with VSCode
+### Run with VSCode
 1. Open Visual Studio. <br>
 2. On the start window, select Clone a repository. <br>
 3. Enter or type the repository location, and then select the Clone button.  <br>
@@ -21,7 +21,7 @@ $ dotnet run
 ```
 
  
-### Run this project from Terminal
+### Run from Terminal
 1. Open Terminal.
 2. Change the current working directory to the location where you want the cloned directory.
 3. Clone repository.
