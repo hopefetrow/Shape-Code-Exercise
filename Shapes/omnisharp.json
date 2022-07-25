@@ -10,7 +10,7 @@
         "SpaceAfterCast": true,
         "SpaceBeforeOpenSquareBracket": true,
         "SpaceWithinExpressionParentheses": true,
-        "SpacingAfterMethodDeclarationName": true,
+        "SpacingAfterMethodDeclarationName": false,
         "SpaceAfterSemicolonsInForStatement": true
     }
 }

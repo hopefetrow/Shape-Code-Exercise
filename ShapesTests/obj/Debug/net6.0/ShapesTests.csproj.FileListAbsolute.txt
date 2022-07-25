@@ -96,3 +96,9 @@
 /Users/hopefetrow/Desktop/CodeChallenge/ShapesTests/obj/Debug/net6.0/ShapesTests.pdb
 /Users/hopefetrow/Desktop/CodeChallenge/ShapesTests/obj/Debug/net6.0/ShapesTests.genruntimeconfig.cache
 /Users/hopefetrow/Desktop/CodeChallenge/ShapesTests/obj/Debug/net6.0/ref/ShapesTests.dll
+/Users/hopefetrow/Desktop/CodeChallenge/ShapesTests/bin/Debug/net6.0/CoverletSourceRootsMapping
+/Users/hopefetrow/Desktop/CodeChallenge/ShapesTests/bin/Debug/net6.0/Shapes.deps.json
+/Users/hopefetrow/Desktop/CodeChallenge/ShapesTests/bin/Debug/net6.0/Shapes.runtimeconfig.json
+/Users/hopefetrow/Desktop/CodeChallenge/ShapesTests/bin/Debug/net6.0/Shapes
+/Users/hopefetrow/Desktop/CodeChallenge/ShapesTests/bin/Debug/net6.0/Shapes.dll
+/Users/hopefetrow/Desktop/CodeChallenge/ShapesTests/bin/Debug/net6.0/Shapes.pdb
