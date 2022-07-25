@@ -5,13 +5,10 @@ using System.Threading.Tasks;
 
 namespace Shapes
 {
-
-    /// Ellipse class 
     public class Ellipse : IShape
     {
         public double centerX, centerY, r1, r2, orientation, _area, _perimeter, _centroidX, _centroidY;
 
-        /// Constructor 
         public Ellipse(int _id, double centerX, double centerY, double r1, double r2, double orientation)
         {
             this.Id = _id;
@@ -22,13 +19,11 @@ namespace Shapes
             this.orientation = orientation;
         }
 
-        // Getter/setter for ID
         public int Id
         {
             get; set;
         }
 
-        // Getter/setter for area 
         public double Area
         {
             get
@@ -41,7 +36,6 @@ namespace Shapes
             }
         }
 
-        // Getter/setter for perimeter 
         public double Perimeter
         {
             get
@@ -50,15 +44,10 @@ namespace Shapes
             }
             set
             {
-                //this._perimeter = (2 * Math.PI) * Math.Sqrt((Math.Pow(this.r1, 2) + Math.Pow(this.r2, 2)) / 2);
-
                 this._perimeter = Math.PI * (3 * (this.r1 + this.r2) - Math.Sqrt(((3 * this.r1) + this.r2) * (this.r1 + (3 * this.r2))));
-
-                // this._perimeter = Math.PI * (this.r1 + this.r2) * (3 * ((Math.Pow((this.r1 - this.r2), 2)) / (Math.Pow((this.r1 + this.r2), 2) * (Math.Sqrt(-3 * (Math.Pow((this.r1 - this.r2), 2) / Math.Pow((this.r1 + this.r2), 2)) + 4) + 10)) + 1));
             }
         }
 
-        // Getter/setter for x-value of centroid
         public double CentroidX
         {
             get
@@ -71,7 +60,6 @@ namespace Shapes
             }
         }
 
-        // Getter/setter for y-value of centroid 
         public double CentroidY
         {
             get

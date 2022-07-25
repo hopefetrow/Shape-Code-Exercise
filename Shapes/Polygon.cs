@@ -5,26 +5,22 @@ using System.Threading.Tasks;
 
 namespace Shapes
 {
-    /// This class defines a polygon shape
     public class Polygon : IShape
     {
         public List<List<double>> vertices;
         public double _area, _perimeter, _centroidX, _centroidY;
 
-        /// Constructor
         public Polygon(int _id, List<List<double>> vertices)
         {
             this.Id = _id;
             this.vertices = vertices;
         }
 
-        /// Getter/setter for ID
         public int Id
         {
             get; set;
         }
 
-        ///  Getter/setter for area
         public double Area
         {
             get
@@ -44,7 +40,6 @@ namespace Shapes
             }
         }
 
-        /// Getter/setter for perimeter 
         public double Perimeter
         {
             get
@@ -66,7 +61,6 @@ namespace Shapes
             }
         }
 
-        /// Getter/setter for x-value of centroid
         public double CentroidX
         {
             get
@@ -88,7 +82,6 @@ namespace Shapes
             }
         }
 
-        // Getter/setter for y-value of centroid 
         public double CentroidY
         {
             get
